@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import React from "react";
-import logo from "@/public/logo.jpeg";
+import ProfilePict from "@/public/ProfilePict.jpg";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { BsLinkedin } from "react-icons/bs";
@@ -29,8 +29,8 @@ export default function Intro() {
             transition={{ type: "tween", duration: 0.2 }}
           >
             <Image
-              src={logo}
-              alt="Ida Bagus portrait"
+              src={ProfilePict}
+              alt="Yabes Picture"
               width="192"
               height="192"
               quality="95"
@@ -59,11 +59,16 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I'm Ida Bagus,</span>{" "}
-        <span className="font-bold">a Computer Science student</span> specializing in{" "}
-        <span className="font-bold">Intelligent Systems</span>. Passionate about{" "}
-        <span className="italic">Deep Learning, NLP, and Mobile Development</span>. Welcome to My{" "}
-        <span className="italic">Portfolio</span>.
+        <span className="font-bold">Hello, I'm Immanuel Yabes,</span>{" "}
+        <span className="font-bold">
+          a Computer Science student at Binus University
+        </span>{" "}
+        specializing in <span className="font-bold">Intelligent Systems</span>.
+        Passionate about{" "}
+        <span className="italic">
+          Quality Assurance, Machine learning, and Web development
+        </span>
+        . Welcome to My <span className="italic">Portfolio</span>.
       </motion.h1>
 
       <motion.div
@@ -84,22 +89,22 @@ export default function Intro() {
         </Link>
         <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="/CV.pdf"
+          href="/ImmanuelYabes_CV.pdf"
           download
         >
           Download CV{" "}
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
         </a>
         <a
-          className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="https://www.linkedin.com/in/ida-bagus-gede-purwa-manik-adiputra-0509861b8/"
+          className="bg-white p-4 ml-1 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+          href="https://www.linkedin.com/in/immanuel-yabes-592b65241/"
           target="_blank"
         >
           <BsLinkedin />
         </a>
         <a
           className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="https://github.com/idabaguspurwa"
+          href="https://github.com/ImmanuelYabes"
           target="_blank"
         >
           <FaGithubSquare />
