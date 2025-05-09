@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import React from "react";
-import ProfilePict from "@/public/ProfilePict.jpg";
+import ProfilePict from "@/public/ProfilePict.png";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { BsLinkedin } from "react-icons/bs";
@@ -61,7 +61,7 @@ export default function Intro() {
       >
         <span className="font-bold">Hello, I'm Immanuel Yabes,</span>{" "}
         <span className="font-bold">
-          a Computer Science student at Binus University
+          a Computer Science student at Binus University with a GPA of 3.55
         </span>{" "}
         specializing in <span className="font-bold">Intelligent Systems</span>.
         Passionate about{" "}
